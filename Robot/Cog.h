@@ -2,11 +2,13 @@
 #define Cog_H
 
 #include <Arduino.h>
+#include <Servo.h>
 //#include <CSensor.h>
-#include <EEPROM.h>
-#include <EEPROMAnything.h>
+//#include <EEPROM.h>
+//#include <EEPROMAnything.h>
+#include "Configure.h"
 
-typedef unsigned char byte;
+//typedef unsigned char byte;
 
 class Cog
 {
